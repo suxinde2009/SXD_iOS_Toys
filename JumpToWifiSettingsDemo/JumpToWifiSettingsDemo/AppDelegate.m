@@ -46,8 +46,8 @@
     [self.window makeKeyAndVisible];
     
     // 监听网络连接状态
-    //[self detectNetworkConnection];
-    [self performSelector:@selector(detectNetworkConnection) withObject:nil afterDelay:1.0f];
+    [self detectNetworkConnection];
+    //[self performSelector:@selector(detectNetworkConnection) withObject:nil afterDelay:1.0f];
     
     return YES;
 }
