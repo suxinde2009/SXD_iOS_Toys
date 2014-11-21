@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9360FC1A1F186300AFC20C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9360FB1A1F186300AFC20C /* main.m */; };
+		6F9360FF1A1F186300AFC20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9360FE1A1F186300AFC20C /* AppDelegate.m */; };
+		6F9361071A1F186300AFC20C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9361061A1F186300AFC20C /* Images.xcassets */; };
+		6F93610A1A1F186300AFC20C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9361081A1F186300AFC20C /* LaunchScreen.xib */; };
+		6F9361161A1F186300AFC20C /* JumpToWifiSettingsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9361151A1F186300AFC20C /* JumpToWifiSettingsDemoTests.m */; };
+		6F9361231A1F18B200AFC20C /* XDNetWorkStateMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9361221A1F18B200AFC20C /* XDNetWorkStateMonitor.m */; };
+		6F9361261A1F18F000AFC20C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9361251A1F18F000AFC20C /* UIKit.framework */; };
+		6F9361281A1F18F400AFC20C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9361271A1F18F400AFC20C /* Foundation.framework */; };
+		6F93612A1A1F18FB00AFC20C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9361291A1F18FB00AFC20C /* CoreGraphics.framework */; };
+		6F93612C1A1F18FF00AFC20C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93612B1A1F18FF00AFC20C /* QuartzCore.framework */; };
+		6F93612E1A1F190400AFC20C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93612D1A1F190400AFC20C /* CFNetwork.framework */; };
+		6F9361301A1F190C00AFC20C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93612F1A1F190C00AFC20C /* SystemConfiguration.framework */; };
+		6F9361321A1F19FA00AFC20C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9361311A1F19FA00AFC20C /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9361101A1F186300AFC20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9360EE1A1F186300AFC20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9360F51A1F186300AFC20C;
+			remoteInfo = JumpToWifiSettingsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F9360F61A1F186300AFC20C /* JumpToWifiSettingsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpToWifiSettingsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9360FA1A1F186300AFC20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9360FB1A1F186300AFC20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F9360FD1A1F186300AFC20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F9360FE1A1F186300AFC20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F9361061A1F186300AFC20C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F9361091A1F186300AFC20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F93610F1A1F186300AFC20C /* JumpToWifiSettingsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpToWifiSettingsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9361141A1F186300AFC20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9361151A1F186300AFC20C /* JumpToWifiSettingsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpToWifiSettingsDemoTests.m; sourceTree = "<group>"; };
+		6F9361211A1F18B200AFC20C /* XDNetWorkStateMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNetWorkStateMonitor.h; sourceTree = "<group>"; };
+		6F9361221A1F18B200AFC20C /* XDNetWorkStateMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNetWorkStateMonitor.m; sourceTree = "<group>"; };
+		6F9361251A1F18F000AFC20C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F9361271A1F18F400AFC20C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F9361291A1F18FB00AFC20C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F93612B1A1F18FF00AFC20C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F93612D1A1F190400AFC20C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6F93612F1A1F190C00AFC20C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F9361311A1F19FA00AFC20C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9360F31A1F186300AFC20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9361321A1F19FA00AFC20C /* MobileCoreServices.framework in Frameworks */,
+				6F9361301A1F190C00AFC20C /* SystemConfiguration.framework in Frameworks */,
+				6F93612E1A1F190400AFC20C /* CFNetwork.framework in Frameworks */,
+				6F93612C1A1F18FF00AFC20C /* QuartzCore.framework in Frameworks */,
+				6F93612A1A1F18FB00AFC20C /* CoreGraphics.framework in Frameworks */,
+				6F9361281A1F18F400AFC20C /* Foundation.framework in Frameworks */,
+				6F9361261A1F18F000AFC20C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F93610C1A1F186300AFC20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9360ED1A1F186300AFC20C = {
+			isa = PBXGroup;
+			children = (
+				6F9361241A1F18B600AFC20C /* Frameworks */,
+				6F9360F81A1F186300AFC20C /* JumpToWifiSettingsDemo */,
+				6F9361121A1F186300AFC20C /* JumpToWifiSettingsDemoTests */,
+				6F9360F71A1F186300AFC20C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9360F71A1F186300AFC20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9360F61A1F186300AFC20C /* JumpToWifiSettingsDemo.app */,
+				6F93610F1A1F186300AFC20C /* JumpToWifiSettingsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9360F81A1F186300AFC20C /* JumpToWifiSettingsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F93611F1A1F18B200AFC20C /* External */,
+				6F9360FD1A1F186300AFC20C /* AppDelegate.h */,
+				6F9360FE1A1F186300AFC20C /* AppDelegate.m */,
+				6F9361061A1F186300AFC20C /* Images.xcassets */,
+				6F9361081A1F186300AFC20C /* LaunchScreen.xib */,
+				6F9360F91A1F186300AFC20C /* Supporting Files */,
+			);
+			path = JumpToWifiSettingsDemo;
+			sourceTree = "<group>";
+		};
+		6F9360F91A1F186300AFC20C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9360FA1A1F186300AFC20C /* Info.plist */,
+				6F9360FB1A1F186300AFC20C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F9361121A1F186300AFC20C /* JumpToWifiSettingsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9361151A1F186300AFC20C /* JumpToWifiSettingsDemoTests.m */,
+				6F9361131A1F186300AFC20C /* Supporting Files */,
+			);
+			path = JumpToWifiSettingsDemoTests;
+			sourceTree = "<group>";
+		};
+		6F9361131A1F186300AFC20C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9361141A1F186300AFC20C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F93611F1A1F18B200AFC20C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6F9361201A1F18B200AFC20C /* XDNetWorkStateMonitor */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		6F9361201A1F18B200AFC20C /* XDNetWorkStateMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				6F9361211A1F18B200AFC20C /* XDNetWorkStateMonitor.h */,
+				6F9361221A1F18B200AFC20C /* XDNetWorkStateMonitor.m */,
+			);
+			path = XDNetWorkStateMonitor;
+			sourceTree = "<group>";
+		};
+		6F9361241A1F18B600AFC20C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9361311A1F19FA00AFC20C /* MobileCoreServices.framework */,
+				6F93612F1A1F190C00AFC20C /* SystemConfiguration.framework */,
+				6F93612D1A1F190400AFC20C /* CFNetwork.framework */,
+				6F93612B1A1F18FF00AFC20C /* QuartzCore.framework */,
+				6F9361291A1F18FB00AFC20C /* CoreGraphics.framework */,
+				6F9361271A1F18F400AFC20C /* Foundation.framework */,
+				6F9361251A1F18F000AFC20C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9360F51A1F186300AFC20C /* JumpToWifiSettingsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9361191A1F186300AFC20C /* Build configuration list for PBXNativeTarget "JumpToWifiSettingsDemo" */;
+			buildPhases = (
+				6F9360F21A1F186300AFC20C /* Sources */,
+				6F9360F31A1F186300AFC20C /* Frameworks */,
+				6F9360F41A1F186300AFC20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpToWifiSettingsDemo;
+			productName = JumpToWifiSettingsDemo;
+			productReference = 6F9360F61A1F186300AFC20C /* JumpToWifiSettingsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F93610E1A1F186300AFC20C /* JumpToWifiSettingsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F93611C1A1F186300AFC20C /* Build configuration list for PBXNativeTarget "JumpToWifiSettingsDemoTests" */;
+			buildPhases = (
+				6F93610B1A1F186300AFC20C /* Sources */,
+				6F93610C1A1F186300AFC20C /* Frameworks */,
+				6F93610D1A1F186300AFC20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9361111A1F186300AFC20C /* PBXTargetDependency */,
+			);
+			name = JumpToWifiSettingsDemoTests;
+			productName = JumpToWifiSettingsDemoTests;
+			productReference = 6F93610F1A1F186300AFC20C /* JumpToWifiSettingsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9360EE1A1F186300AFC20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Su XinDe";
+				TargetAttributes = {
+					6F9360F51A1F186300AFC20C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6F93610E1A1F186300AFC20C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6F9360F51A1F186300AFC20C;
+					};
+				};
+			};
+			buildConfigurationList = 6F9360F11A1F186300AFC20C /* Build configuration list for PBXProject "JumpToWifiSettingsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F9360ED1A1F186300AFC20C;
+			productRefGroup = 6F9360F71A1F186300AFC20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9360F51A1F186300AFC20C /* JumpToWifiSettingsDemo */,
+				6F93610E1A1F186300AFC20C /* JumpToWifiSettingsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9360F41A1F186300AFC20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F93610A1A1F186300AFC20C /* LaunchScreen.xib in Resources */,
+				6F9361071A1F186300AFC20C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F93610D1A1F186300AFC20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9360F21A1F186300AFC20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9361231A1F18B200AFC20C /* XDNetWorkStateMonitor.m in Sources */,
+				6F9360FF1A1F186300AFC20C /* AppDelegate.m in Sources */,
+				6F9360FC1A1F186300AFC20C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F93610B1A1F186300AFC20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9361161A1F186300AFC20C /* JumpToWifiSettingsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F9361111A1F186300AFC20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9360F51A1F186300AFC20C /* JumpToWifiSettingsDemo */;
+			targetProxy = 6F9361101A1F186300AFC20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F9361081A1F186300AFC20C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9361091A1F186300AFC20C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9361171A1F186300AFC20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9361181A1F186300AFC20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F93611A1A1F186300AFC20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JumpToWifiSettingsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F93611B1A1F186300AFC20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JumpToWifiSettingsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F93611D1A1F186300AFC20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JumpToWifiSettingsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpToWifiSettingsDemo.app/JumpToWifiSettingsDemo";
+			};
+			name = Debug;
+		};
+		6F93611E1A1F186300AFC20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JumpToWifiSettingsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpToWifiSettingsDemo.app/JumpToWifiSettingsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9360F11A1F186300AFC20C /* Build configuration list for PBXProject "JumpToWifiSettingsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9361171A1F186300AFC20C /* Debug */,
+				6F9361181A1F186300AFC20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9361191A1F186300AFC20C /* Build configuration list for PBXNativeTarget "JumpToWifiSettingsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F93611A1A1F186300AFC20C /* Debug */,
+				6F93611B1A1F186300AFC20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F93611C1A1F186300AFC20C /* Build configuration list for PBXNativeTarget "JumpToWifiSettingsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F93611D1A1F186300AFC20C /* Debug */,
+				6F93611E1A1F186300AFC20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9360EE1A1F186300AFC20C /* Project object */;
+}
