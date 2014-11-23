@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2048981A2252B90051926A /* XDBleLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F2048971A2252B90051926A /* XDBleLib.h */; };
+		1F20489A1A2252B90051926A /* XDBleLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2048991A2252B90051926A /* XDBleLib.m */; };
+		1F2048A01A2252B90051926A /* libXDBleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2048941A2252B90051926A /* libXDBleLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2048A11A2252B90051926A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F20488C1A2252B90051926A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2048931A2252B90051926A;
+			remoteInfo = XDBleLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F2048921A2252B90051926A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1F2048981A2252B90051926A /* XDBleLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F2048941A2252B90051926A /* libXDBleLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXDBleLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2048971A2252B90051926A /* XDBleLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDBleLib.h; sourceTree = "<group>"; };
+		1F2048991A2252B90051926A /* XDBleLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDBleLib.m; sourceTree = "<group>"; };
+		1F20489F1A2252B90051926A /* XDBleLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDBleLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2048A51A2252B90051926A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2048911A2252B90051926A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F20489C1A2252B90051926A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2048A01A2252B90051926A /* libXDBleLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F20488B1A2252B90051926A = {
+			isa = PBXGroup;
+			children = (
+				1F2048961A2252B90051926A /* XDBleLib */,
+				1F2048A31A2252B90051926A /* XDBleLibTests */,
+				1F2048951A2252B90051926A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2048951A2252B90051926A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2048941A2252B90051926A /* libXDBleLib.a */,
+				1F20489F1A2252B90051926A /* XDBleLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2048961A2252B90051926A /* XDBleLib */ = {
+			isa = PBXGroup;
+			children = (
+				1F2048971A2252B90051926A /* XDBleLib.h */,
+				1F2048991A2252B90051926A /* XDBleLib.m */,
+			);
+			path = XDBleLib;
+			sourceTree = "<group>";
+		};
+		1F2048A31A2252B90051926A /* XDBleLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2048A41A2252B90051926A /* Supporting Files */,
+			);
+			path = XDBleLibTests;
+			sourceTree = "<group>";
+		};
+		1F2048A41A2252B90051926A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2048A51A2252B90051926A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2048931A2252B90051926A /* XDBleLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2048A81A2252B90051926A /* Build configuration list for PBXNativeTarget "XDBleLib" */;
+			buildPhases = (
+				1F2048901A2252B90051926A /* Sources */,
+				1F2048911A2252B90051926A /* Frameworks */,
+				1F2048921A2252B90051926A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDBleLib;
+			productName = XDBleLib;
+			productReference = 1F2048941A2252B90051926A /* libXDBleLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1F20489E1A2252B90051926A /* XDBleLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2048AB1A2252B90051926A /* Build configuration list for PBXNativeTarget "XDBleLibTests" */;
+			buildPhases = (
+				1F20489B1A2252B90051926A /* Sources */,
+				1F20489C1A2252B90051926A /* Frameworks */,
+				1F20489D1A2252B90051926A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2048A21A2252B90051926A /* PBXTargetDependency */,
+			);
+			name = XDBleLibTests;
+			productName = XDBleLibTests;
+			productReference = 1F20489F1A2252B90051926A /* XDBleLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F20488C1A2252B90051926A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "su xinde";
+				TargetAttributes = {
+					1F2048931A2252B90051926A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1F20489E1A2252B90051926A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F20488F1A2252B90051926A /* Build configuration list for PBXProject "XDBleLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F20488B1A2252B90051926A;
+			productRefGroup = 1F2048951A2252B90051926A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2048931A2252B90051926A /* XDBleLib */,
+				1F20489E1A2252B90051926A /* XDBleLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F20489D1A2252B90051926A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2048901A2252B90051926A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F20489A1A2252B90051926A /* XDBleLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F20489B1A2252B90051926A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2048A21A2252B90051926A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2048931A2252B90051926A /* XDBleLib */;
+			targetProxy = 1F2048A11A2252B90051926A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F2048A61A2252B90051926A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F2048A71A2252B90051926A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2048A91A2252B90051926A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F2048AA1A2252B90051926A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F2048AC1A2252B90051926A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XDBleLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F2048AD1A2252B90051926A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XDBleLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F20488F1A2252B90051926A /* Build configuration list for PBXProject "XDBleLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2048A61A2252B90051926A /* Debug */,
+				1F2048A71A2252B90051926A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2048A81A2252B90051926A /* Build configuration list for PBXNativeTarget "XDBleLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2048A91A2252B90051926A /* Debug */,
+				1F2048AA1A2252B90051926A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F2048AB1A2252B90051926A /* Build configuration list for PBXNativeTarget "XDBleLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2048AC1A2252B90051926A /* Debug */,
+				1F2048AD1A2252B90051926A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F20488C1A2252B90051926A /* Project object */;
+}
