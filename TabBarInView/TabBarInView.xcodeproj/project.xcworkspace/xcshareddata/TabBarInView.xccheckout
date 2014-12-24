@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>66E477A5-24C9-4EBF-A75E-83CFE0A8CF4D</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>c123b131-a456-9b4a-b8c0-f7e6ca3b8972</key>
+		<string>http://192.168.0.55/svn/iOS_Projects_development</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>c123b131-a456-9b4a-b8c0-f7e6ca3b8972</key>
+		<string>iOS_Projects_development/</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>c123b131-a456-9b4a-b8c0-f7e6ca3b8972</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>c123b131-a456-9b4a-b8c0-f7e6ca3b8972</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_Projects_development</string>
+		</dict>
+	</array>
+</dict>
+</plist>

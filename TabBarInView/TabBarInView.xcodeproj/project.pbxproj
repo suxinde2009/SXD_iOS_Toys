@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4D4D851A25734A00B79C97 /* SubViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D4D841A25734A00B79C97 /* SubViewController2.m */; };
+		6F4D4D881A25735800B79C97 /* SubViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D4D871A25735800B79C97 /* SubViewController3.m */; };
+		6F4D4D8B1A25805600B79C97 /* ThirdGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D4D8A1A25805600B79C97 /* ThirdGradeViewController.m */; };
+		6FB189F51A243D870082F9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB189F41A243D870082F9F9 /* main.m */; };
+		6FB189F81A243D870082F9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB189F71A243D870082F9F9 /* AppDelegate.m */; };
+		6FB189FB1A243D870082F9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB189FA1A243D870082F9F9 /* MainViewController.m */; };
+		6FB18A001A243D870082F9F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB189FF1A243D870082F9F9 /* Images.xcassets */; };
+		6FB18A031A243D870082F9F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FB18A011A243D870082F9F9 /* LaunchScreen.xib */; };
+		6FB18A0F1A243D870082F9F9 /* TabBarInViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A0E1A243D870082F9F9 /* TabBarInViewTests.m */; };
+		6FB18A1A1A2441290082F9F9 /* SubViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A191A2441290082F9F9 /* SubViewController1.m */; };
+		6FB18A241A2452220082F9F9 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A1D1A2452220082F9F9 /* MMDrawerBarButtonItem.m */; };
+		6FB18A251A2452220082F9F9 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A1F1A2452220082F9F9 /* MMDrawerController.m */; };
+		6FB18A261A2452220082F9F9 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A211A2452220082F9F9 /* MMDrawerVisualState.m */; };
+		6FB18A271A2452220082F9F9 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A231A2452220082F9F9 /* UIViewController+MMDrawerController.m */; };
+		6FB18A2A1A2452650082F9F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB18A291A2452650082F9F9 /* QuartzCore.framework */; };
+		6FB18A2C1A2452690082F9F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB18A2B1A2452690082F9F9 /* UIKit.framework */; };
+		6FB18A301A2452700082F9F9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB18A2D1A2452700082F9F9 /* AVFoundation.framework */; };
+		6FB18A311A2452700082F9F9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB18A2E1A2452700082F9F9 /* CoreFoundation.framework */; };
+		6FB18A321A2452700082F9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB18A2F1A2452700082F9F9 /* Foundation.framework */; };
+		6FB18A351A2453920082F9F9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A341A2453920082F9F9 /* LeftViewController.m */; };
+		6FB18A381A24539B0082F9F9 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB18A371A24539B0082F9F9 /* RightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FB18A091A243D870082F9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB189E71A243D870082F9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB189EE1A243D870082F9F9;
+			remoteInfo = TabBarInView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4D4D831A25734A00B79C97 /* SubViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController2.h; sourceTree = "<group>"; };
+		6F4D4D841A25734A00B79C97 /* SubViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController2.m; sourceTree = "<group>"; };
+		6F4D4D861A25735800B79C97 /* SubViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController3.h; sourceTree = "<group>"; };
+		6F4D4D871A25735800B79C97 /* SubViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController3.m; sourceTree = "<group>"; };
+		6F4D4D891A25805600B79C97 /* ThirdGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdGradeViewController.h; sourceTree = "<group>"; };
+		6F4D4D8A1A25805600B79C97 /* ThirdGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdGradeViewController.m; sourceTree = "<group>"; };
+		6FB189EF1A243D870082F9F9 /* TabBarInView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarInView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB189F31A243D870082F9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB189F41A243D870082F9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FB189F61A243D870082F9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FB189F71A243D870082F9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FB189F91A243D870082F9F9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6FB189FA1A243D870082F9F9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FB189FF1A243D870082F9F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FB18A021A243D870082F9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FB18A081A243D870082F9F9 /* TabBarInViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarInViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB18A0D1A243D870082F9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB18A0E1A243D870082F9F9 /* TabBarInViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarInViewTests.m; sourceTree = "<group>"; };
+		6FB18A181A2441290082F9F9 /* SubViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController1.h; sourceTree = "<group>"; };
+		6FB18A191A2441290082F9F9 /* SubViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController1.m; sourceTree = "<group>"; };
+		6FB18A1C1A2452220082F9F9 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		6FB18A1D1A2452220082F9F9 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		6FB18A1E1A2452220082F9F9 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		6FB18A1F1A2452220082F9F9 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		6FB18A201A2452220082F9F9 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		6FB18A211A2452220082F9F9 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		6FB18A221A2452220082F9F9 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		6FB18A231A2452220082F9F9 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		6FB18A291A2452650082F9F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FB18A2B1A2452690082F9F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FB18A2D1A2452700082F9F9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6FB18A2E1A2452700082F9F9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6FB18A2F1A2452700082F9F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FB18A331A2453920082F9F9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		6FB18A341A2453920082F9F9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		6FB18A361A24539B0082F9F9 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		6FB18A371A24539B0082F9F9 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB189EC1A243D870082F9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB18A301A2452700082F9F9 /* AVFoundation.framework in Frameworks */,
+				6FB18A311A2452700082F9F9 /* CoreFoundation.framework in Frameworks */,
+				6FB18A321A2452700082F9F9 /* Foundation.framework in Frameworks */,
+				6FB18A2C1A2452690082F9F9 /* UIKit.framework in Frameworks */,
+				6FB18A2A1A2452650082F9F9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB18A051A243D870082F9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB189E61A243D870082F9F9 = {
+			isa = PBXGroup;
+			children = (
+				6FB18A281A2452370082F9F9 /* Frameworks */,
+				6FB189F11A243D870082F9F9 /* TabBarInView */,
+				6FB18A0B1A243D870082F9F9 /* TabBarInViewTests */,
+				6FB189F01A243D870082F9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB189F01A243D870082F9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB189EF1A243D870082F9F9 /* TabBarInView.app */,
+				6FB18A081A243D870082F9F9 /* TabBarInViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB189F11A243D870082F9F9 /* TabBarInView */ = {
+			isa = PBXGroup;
+			children = (
+				6FB18A1B1A2452220082F9F9 /* MMDrawerController */,
+				6FB189F61A243D870082F9F9 /* AppDelegate.h */,
+				6FB189F71A243D870082F9F9 /* AppDelegate.m */,
+				6FB189F91A243D870082F9F9 /* MainViewController.h */,
+				6FB189FA1A243D870082F9F9 /* MainViewController.m */,
+				6FB18A181A2441290082F9F9 /* SubViewController1.h */,
+				6FB18A191A2441290082F9F9 /* SubViewController1.m */,
+				6F4D4D831A25734A00B79C97 /* SubViewController2.h */,
+				6F4D4D841A25734A00B79C97 /* SubViewController2.m */,
+				6F4D4D861A25735800B79C97 /* SubViewController3.h */,
+				6F4D4D871A25735800B79C97 /* SubViewController3.m */,
+				6FB18A331A2453920082F9F9 /* LeftViewController.h */,
+				6FB18A341A2453920082F9F9 /* LeftViewController.m */,
+				6FB18A361A24539B0082F9F9 /* RightViewController.h */,
+				6FB18A371A24539B0082F9F9 /* RightViewController.m */,
+				6F4D4D891A25805600B79C97 /* ThirdGradeViewController.h */,
+				6F4D4D8A1A25805600B79C97 /* ThirdGradeViewController.m */,
+				6FB189FF1A243D870082F9F9 /* Images.xcassets */,
+				6FB18A011A243D870082F9F9 /* LaunchScreen.xib */,
+				6FB189F21A243D870082F9F9 /* Supporting Files */,
+			);
+			path = TabBarInView;
+			sourceTree = "<group>";
+		};
+		6FB189F21A243D870082F9F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FB189F31A243D870082F9F9 /* Info.plist */,
+				6FB189F41A243D870082F9F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FB18A0B1A243D870082F9F9 /* TabBarInViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB18A0E1A243D870082F9F9 /* TabBarInViewTests.m */,
+				6FB18A0C1A243D870082F9F9 /* Supporting Files */,
+			);
+			path = TabBarInViewTests;
+			sourceTree = "<group>";
+		};
+		6FB18A0C1A243D870082F9F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FB18A0D1A243D870082F9F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FB18A1B1A2452220082F9F9 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				6FB18A1C1A2452220082F9F9 /* MMDrawerBarButtonItem.h */,
+				6FB18A1D1A2452220082F9F9 /* MMDrawerBarButtonItem.m */,
+				6FB18A1E1A2452220082F9F9 /* MMDrawerController.h */,
+				6FB18A1F1A2452220082F9F9 /* MMDrawerController.m */,
+				6FB18A201A2452220082F9F9 /* MMDrawerVisualState.h */,
+				6FB18A211A2452220082F9F9 /* MMDrawerVisualState.m */,
+				6FB18A221A2452220082F9F9 /* UIViewController+MMDrawerController.h */,
+				6FB18A231A2452220082F9F9 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		6FB18A281A2452370082F9F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FB18A2D1A2452700082F9F9 /* AVFoundation.framework */,
+				6FB18A2E1A2452700082F9F9 /* CoreFoundation.framework */,
+				6FB18A2F1A2452700082F9F9 /* Foundation.framework */,
+				6FB18A2B1A2452690082F9F9 /* UIKit.framework */,
+				6FB18A291A2452650082F9F9 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB189EE1A243D870082F9F9 /* TabBarInView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB18A121A243D870082F9F9 /* Build configuration list for PBXNativeTarget "TabBarInView" */;
+			buildPhases = (
+				6FB189EB1A243D870082F9F9 /* Sources */,
+				6FB189EC1A243D870082F9F9 /* Frameworks */,
+				6FB189ED1A243D870082F9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarInView;
+			productName = TabBarInView;
+			productReference = 6FB189EF1A243D870082F9F9 /* TabBarInView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FB18A071A243D870082F9F9 /* TabBarInViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB18A151A243D870082F9F9 /* Build configuration list for PBXNativeTarget "TabBarInViewTests" */;
+			buildPhases = (
+				6FB18A041A243D870082F9F9 /* Sources */,
+				6FB18A051A243D870082F9F9 /* Frameworks */,
+				6FB18A061A243D870082F9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB18A0A1A243D870082F9F9 /* PBXTargetDependency */,
+			);
+			name = TabBarInViewTests;
+			productName = TabBarInViewTests;
+			productReference = 6FB18A081A243D870082F9F9 /* TabBarInViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB189E71A243D870082F9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Su XinDe";
+				TargetAttributes = {
+					6FB189EE1A243D870082F9F9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6FB18A071A243D870082F9F9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6FB189EE1A243D870082F9F9;
+					};
+				};
+			};
+			buildConfigurationList = 6FB189EA1A243D870082F9F9 /* Build configuration list for PBXProject "TabBarInView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB189E61A243D870082F9F9;
+			productRefGroup = 6FB189F01A243D870082F9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB189EE1A243D870082F9F9 /* TabBarInView */,
+				6FB18A071A243D870082F9F9 /* TabBarInViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB189ED1A243D870082F9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB18A031A243D870082F9F9 /* LaunchScreen.xib in Resources */,
+				6FB18A001A243D870082F9F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB18A061A243D870082F9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB189EB1A243D870082F9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB18A351A2453920082F9F9 /* LeftViewController.m in Sources */,
+				6FB189FB1A243D870082F9F9 /* MainViewController.m in Sources */,
+				6FB189F81A243D870082F9F9 /* AppDelegate.m in Sources */,
+				6F4D4D851A25734A00B79C97 /* SubViewController2.m in Sources */,
+				6FB18A241A2452220082F9F9 /* MMDrawerBarButtonItem.m in Sources */,
+				6FB18A271A2452220082F9F9 /* UIViewController+MMDrawerController.m in Sources */,
+				6FB18A381A24539B0082F9F9 /* RightViewController.m in Sources */,
+				6FB189F51A243D870082F9F9 /* main.m in Sources */,
+				6F4D4D8B1A25805600B79C97 /* ThirdGradeViewController.m in Sources */,
+				6FB18A251A2452220082F9F9 /* MMDrawerController.m in Sources */,
+				6FB18A1A1A2441290082F9F9 /* SubViewController1.m in Sources */,
+				6FB18A261A2452220082F9F9 /* MMDrawerVisualState.m in Sources */,
+				6F4D4D881A25735800B79C97 /* SubViewController3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB18A041A243D870082F9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB18A0F1A243D870082F9F9 /* TabBarInViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB18A0A1A243D870082F9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB189EE1A243D870082F9F9 /* TabBarInView */;
+			targetProxy = 6FB18A091A243D870082F9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FB18A011A243D870082F9F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB18A021A243D870082F9F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FB18A101A243D870082F9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FB18A111A243D870082F9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB18A131A243D870082F9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarInView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FB18A141A243D870082F9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarInView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FB18A161A243D870082F9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarInViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarInView.app/TabBarInView";
+			};
+			name = Debug;
+		};
+		6FB18A171A243D870082F9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarInViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarInView.app/TabBarInView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB189EA1A243D870082F9F9 /* Build configuration list for PBXProject "TabBarInView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB18A101A243D870082F9F9 /* Debug */,
+				6FB18A111A243D870082F9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB18A121A243D870082F9F9 /* Build configuration list for PBXNativeTarget "TabBarInView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB18A131A243D870082F9F9 /* Debug */,
+				6FB18A141A243D870082F9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB18A151A243D870082F9F9 /* Build configuration list for PBXNativeTarget "TabBarInViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB18A161A243D870082F9F9 /* Debug */,
+				6FB18A171A243D870082F9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FB189E71A243D870082F9F9 /* Project object */;
+}
