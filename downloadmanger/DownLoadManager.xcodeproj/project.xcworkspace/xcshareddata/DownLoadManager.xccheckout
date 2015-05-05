@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6E845FE7-3021-4255-AAAB-DC35E4F341D5</string>
+	<string>37A9D544-BEDC-4DEE-B012-B8DE581757FF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>StoryBoardPractiseDemo</string>
+	<string>DownLoadManager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>493230325E7AB6B7C9A16CC3A669E8D79DD32A66</key>
-		<string>https://github.com/suxinde2009/SXD_iOS_Toys.git</string>
+		<key>A9FA40DFEA7DC206AB4C4D6107CC75B7A7D957DC</key>
+		<string>https://github.com/lukelan/downloadmanger.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>StoryBoardPractiseDemo/StoryBoardPractiseDemo.xcodeproj</string>
+	<string>DownLoadManager.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>493230325E7AB6B7C9A16CC3A669E8D79DD32A66</key>
-		<string>../../..</string>
+		<key>A9FA40DFEA7DC206AB4C4D6107CC75B7A7D957DC</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/suxinde2009/SXD_iOS_Toys.git</string>
+	<string>https://github.com/lukelan/downloadmanger.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>493230325E7AB6B7C9A16CC3A669E8D79DD32A66</string>
+	<string>A9FA40DFEA7DC206AB4C4D6107CC75B7A7D957DC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>493230325E7AB6B7C9A16CC3A669E8D79DD32A66</string>
+			<string>A9FA40DFEA7DC206AB4C4D6107CC75B7A7D957DC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SXD_iOS_Toys</string>
+			<string>downloadmanger</string>
 		</dict>
 	</array>
 </dict>
