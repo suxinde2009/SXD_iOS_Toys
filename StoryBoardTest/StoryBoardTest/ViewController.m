@@ -18,8 +18,8 @@
 // http://www.cocoachina.com/ios/20140915/9623.html
 // http://blog.csdn.net/yongyinmg/article/details/39315829
 
-// http://blog.csdn.net/dwarven/article/details/37874141
-// http://www.cocoachina.com/industry/20131203/7462.html
+// 
+// http://www.cocoachina.com/industry/20131203/7462.htmlhttp://blog.csdn.net/dwarven/article/details/37874141
 // http://www.cocoachina.com/industry/20131213/7537.html
 
 
