@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/44/trunk/Classes
+END
+CDEqualFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46/trunk/Classes/CDEqualFilter.m
+END
+CDFilterFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/46/trunk/Classes/CDFilterFactory.m
+END
+CDNullFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDNullFilter.m
+END
+CDFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/46/trunk/Classes/CDFilter.h
+END
+CDFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/46/trunk/Classes/CDFunction.h
+END
+CDSearchCriteria.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDSearchCriteria.h
+END
+CDFunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/46/trunk/Classes/CDFunction.m
+END
+CDFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/46/trunk/Classes/CDFilter.m
+END
+CDLikeFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDLikeFilter.h
+END
+CDSearchCriteria.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDSearchCriteria.m
+END
+CDFilterJunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDFilterJunction.h
+END
+CDFilterConjunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46/trunk/Classes/CDFilterConjunction.h
+END
+CDFilterDisjunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46/trunk/Classes/CDFilterDisjunction.h
+END
+CDLikeFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDLikeFilter.m
+END
+CDOperatorFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDOperatorFilter.h
+END
+CDCriteria.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/46/trunk/Classes/CDCriteria.h
+END
+CDFilterDisjunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46/trunk/Classes/CDFilterDisjunction.m
+END
+CDFilterConjunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/46/trunk/Classes/CDFilterConjunction.m
+END
+CDFilterJunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDFilterJunction.m
+END
+CDOperatorFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Classes/CDOperatorFilter.m
+END
+CDOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/46/trunk/Classes/CDOrder.h
+END
+CDCriteriaElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46/trunk/Classes/CDCriteriaElement.h
+END
+CDProjection.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDProjection.h
+END
+Persistence.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/46/trunk/Classes/Persistence.h
+END
+CDEqualFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46/trunk/Classes/CDEqualFilter.h
+END
+CDFilterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/46/trunk/Classes/CDFilterFactory.h
+END
+CDNullFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDNullFilter.h
+END
+CDOrder.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/46/trunk/Classes/CDOrder.m
+END
+CDCriteriaElement.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/46/trunk/Classes/CDCriteriaElement.m
+END
+CDProjection.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Classes/CDProjection.m
+END

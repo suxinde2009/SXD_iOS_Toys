@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/45/trunk
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/2/trunk/main.m
+END
+test.sqlite
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/test.sqlite
+END
+Tests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/46/trunk/Tests-Info.plist
+END
+Persistence_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/46/trunk/Persistence_Prefix.pch
+END
+common_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/46/trunk/common_defines.h
+END

@@ -1,0 +1,7 @@
+PODS:
+  - AFNetworking (1.0RC1)
+  - MagicalRecord (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MagicalRecord

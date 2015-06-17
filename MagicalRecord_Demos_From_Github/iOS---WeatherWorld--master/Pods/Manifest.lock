@@ -1,0 +1,30 @@
+PODS:
+  - CoreDataBaseClassLibrary (0.0.1)
+  - FBDigitalFont (0.0.4)
+  - Kiwi (2.3.0)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - ObjectiveSugar (1.1.0)
+  - PQFCustomLoaders (0.0.1):
+    - UIColor+FlatColors
+  - UIColor+FlatColors (0.0.2)
+
+DEPENDENCIES:
+  - CoreDataBaseClassLibrary
+  - FBDigitalFont
+  - Kiwi
+  - MagicalRecord
+  - ObjectiveSugar
+  - PQFCustomLoaders
+
+SPEC CHECKSUMS:
+  CoreDataBaseClassLibrary: e980c19098b1926c8844ebca24ddd0ef4fd2aecb
+  FBDigitalFont: e1790577b7a2e61db28fc3f6dc45f71a74b00b2a
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
+  PQFCustomLoaders: 3f59916dce73c721a823a5bb21be28305329e775
+  UIColor+FlatColors: 15506ef6472e26a751033f2f2469283800bcb906
+
+COCOAPODS: 0.34.4

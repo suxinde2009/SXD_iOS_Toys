@@ -1,0 +1,134 @@
+{
+    "creates": {
+        "events": [
+                   {
+                   "id": 96,
+                   "interlocutor_id": 2,
+                   "event_type_id": 2,
+                   "event_kind_id": 2,
+                   "formulation": "У нас нет денег",
+                   "frequency": 17,
+                   "access_count": 1,
+                   "created_at": "2014-11-05 15:23:58 +0300",
+                   "updated_at": "2014-11-17 13:07:22 +0300",
+                   "deleted_at": null
+                   }
+                   ],
+        "answers": [
+                    {
+                    "id": 272,
+                    "event_id": 96,
+                    "created_at": "2014-11-06 13:53:06 +0300",
+                    "updated_at": "2014-11-06 13:53:06 +0300",
+                    "deleted_at": null,
+                    "text": "Цена определяется не только известным брендом, но и многолетними клиническими исследованиями и, что более важно, вашей клинической практикой по применению нашей продукции."
+                    }
+                    ],
+        "documents": [
+                      {
+                      "id": 368,
+                      "justification": null,
+                      "created_at": "2014-11-06 13:52:39 +0300",
+                      "updated_at": "2014-11-06 13:53:06 +0300",
+                      "deleted_at": null,
+                      "url": "/uploads/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20%D0%B1%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B5%20_%D0%9F%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D1%81%D0%B0%D0%BC%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F_%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%20%D0%BF%D0%BE%20%D0%A0%D0%A4.doc",
+                      "answer_id": 272
+                      },
+                      {
+                      "id": 369,
+                      "justification": null,
+                      "created_at": "2014-11-06 13:52:40 +0300",
+                      "updated_at": "2014-11-06 13:53:06 +0300",
+                      "deleted_at": null,
+                      "url": "/uploads/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0%20_%D0%9F%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D1%81%D0%B0%D0%BC%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F_.pdf",
+                      "answer_id": 272
+                      }
+                      ],
+        "event_tags": [
+                       {
+                       "id": 1101,
+                       "created_at": "2014-11-06 13:53:06 +0300",
+                       "updated_at": "2014-11-06 13:53:06 +0300",
+                       "deleted_at": null,
+                       "event_id": 96,
+                       "tag_id": 64
+                       },
+                       {
+                       "id": 1102,
+                       "created_at": "2014-11-06 13:53:06 +0300",
+                       "updated_at": "2014-11-06 13:53:06 +0300",
+                       "deleted_at": null,
+                       "event_id": 96,
+                       "tag_id": 65
+                       },
+                       {
+                       "id": 1103,
+                       "created_at": "2014-11-06 13:53:06 +0300",
+                       "updated_at": "2014-11-06 13:53:06 +0300",
+                       "deleted_at": null,
+                       "event_id": 96,
+                       "tag_id": 66
+                       },
+                       {
+                       "id": 1104,
+                       "created_at": "2014-11-06 13:53:06 +0300",
+                       "updated_at": "2014-11-06 13:53:06 +0300",
+                       "deleted_at": null,
+                       "event_id": 96,
+                       "tag_id": 67
+                       }
+                       ],
+        "tags": [
+                 {
+                 "id": 64,
+                 "name": "Министерство здравоохранения",
+                 "created_at": "2014-11-05 15:12:50 +0300",
+                 "updated_at": "2014-11-05 15:12:50 +0300",
+                 "deleted_at": null
+                 },
+                 {
+                 "id": 65,
+                 "name": "департамент здравоохранения",
+                 "created_at": "2014-11-05 15:12:50 +0300",
+                 "updated_at": "2014-11-05 15:12:50 +0300",
+                 "deleted_at": null
+                 },
+                 {
+                 "id": 66,
+                 "name": "лекарственное обеспечение",
+                 "created_at": "2014-11-05 15:12:50 +0300",
+                 "updated_at": "2014-11-05 15:12:50 +0300",
+                 "deleted_at": null
+                 },
+                 {
+                 "id": 67,
+                 "name": "бюджет",
+                 "created_at": "2014-11-05 15:12:50 +0300",
+                 "updated_at": "2014-11-05 15:12:50 +0300",
+                 "deleted_at": null
+                 }
+                 ],
+        "related_events": [
+                           {
+                           "id": 322,
+                           "event_id": 96,
+                           "related_event_id": 11,
+                           "previous": false,
+                           "created_at": "2014-11-06 13:53:06 +0300",
+                           "updated_at": "2014-11-06 13:53:06 +0300",
+                           "frequency": 1,
+                           "deleted_at": null
+                           },
+                           {
+                           "id": 323,
+                           "event_id": 96,
+                           "related_event_id": 12,
+                           "previous": true,
+                           "created_at": "2014-11-06 13:53:06 +0300",
+                           "updated_at": "2014-11-06 13:53:06 +0300",
+                           "frequency": 1,
+                           "deleted_at": null
+                           }
+                           ]
+    }
+}

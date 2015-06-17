@@ -1,0 +1,40 @@
+10
+
+dir
+45
+https://jozef.bozek@coredata-persistence.googlecode.com/svn/trunk/Libraries
+https://jozef.bozek@coredata-persistence.googlecode.com/svn
+
+
+
+2011-05-18T20:19:24.685018Z
+41
+jozef.bozek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41c54af6-02de-11df-886e-6fd961b10eda
+
+
+
+
+
+
+
+
+((conflict libGHUnitIPhone3_0-0.4.18 dir update deleted deleted (version https://jozef.bozek@coredata-persistence.googlecode.com/svn 2 40 trunk/Libraries/libGHUnitIPhone3_0-0.4.18 none) (version https://jozef.bozek@coredata-persistence.googlecode.com/svn 2 43 trunk/Libraries/libGHUnitIPhone3_0-0.4.18 none)))
+
+GHUnitIOS.framework
+dir
+

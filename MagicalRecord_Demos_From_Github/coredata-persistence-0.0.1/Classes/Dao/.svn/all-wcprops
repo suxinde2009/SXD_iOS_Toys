@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/43/trunk/Classes/Dao
+END
+DAOFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/Classes/Dao/DAOFactory.h
+END
+RuntimeDAO.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/Classes/Dao/RuntimeDAO.m
+END
+DAOBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/46/trunk/Classes/Dao/DAOBase.h
+END
+DAOFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/Classes/Dao/DAOFactory.m
+END
+DAO.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/46/trunk/Classes/Dao/DAO.h
+END
+DAOBase.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/46/trunk/Classes/Dao/DAOBase.m
+END
+RuntimeDAO.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/Classes/Dao/RuntimeDAO.h
+END

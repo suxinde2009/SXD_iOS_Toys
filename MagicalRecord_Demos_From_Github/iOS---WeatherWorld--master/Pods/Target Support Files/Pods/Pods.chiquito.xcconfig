@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CoreDataBaseClassLibrary" "${PODS_ROOT}/Headers/Public/FBDigitalFont" "${PODS_ROOT}/Headers/Public/Kiwi" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/ObjectiveSugar" "${PODS_ROOT}/Headers/Public/PQFCustomLoaders" "${PODS_ROOT}/Headers/Public/UIColor+FlatColors"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CoreDataBaseClassLibrary" -isystem "${PODS_ROOT}/Headers/Public/FBDigitalFont" -isystem "${PODS_ROOT}/Headers/Public/Kiwi" -isystem "${PODS_ROOT}/Headers/Public/MagicalRecord" -isystem "${PODS_ROOT}/Headers/Public/ObjectiveSugar" -isystem "${PODS_ROOT}/Headers/Public/PQFCustomLoaders" -isystem "${PODS_ROOT}/Headers/Public/UIColor+FlatColors"
+OTHER_LDFLAGS = -ObjC -l"Pods-CoreDataBaseClassLibrary" -l"Pods-FBDigitalFont" -l"Pods-MagicalRecord" -l"Pods-PQFCustomLoaders" -l"Pods-UIColor+FlatColors" -framework "CoreData" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

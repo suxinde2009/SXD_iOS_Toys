@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/40/trunk/Tests
+END
+DAOFactoryTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Tests/DAOFactoryTestCase.m
+END
+CDFilterTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/Tests/CDFilterTestCase.m
+END
+CDFunctionTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/46/trunk/Tests/CDFunctionTestCase.m
+END
+CDSearchCriteriaTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/46/trunk/Tests/CDSearchCriteriaTestCase.m
+END
+Tests-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/40/trunk/Tests/Tests-Prefix.pch
+END
+CDOrderTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46/trunk/Tests/CDOrderTestCase.m
+END
+GHUnitIOSTestMain.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/39/trunk/Tests/GHUnitIOSTestMain.m
+END
+CDProjectionTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46/trunk/Tests/CDProjectionTestCase.m
+END
+CDFilterFactoryTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/46/trunk/Tests/CDFilterFactoryTestCase.m
+END
+CDFilterJunctionTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/46/trunk/Tests/CDFilterJunctionTestCase.m
+END
+CDNullFilterTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46/trunk/Tests/CDNullFilterTestCase.m
+END

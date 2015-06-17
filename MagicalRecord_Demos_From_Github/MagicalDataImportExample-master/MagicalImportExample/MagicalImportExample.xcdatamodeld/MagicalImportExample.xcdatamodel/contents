@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="distance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="venue" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="location" inverseEntity="Venue" syncable="YES"/>
+    </entity>
+    <entity name="Venue" representedClassName="Venue" syncable="YES">
+        <attribute name="checkins" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="stats.checkinsCount"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueID" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+            </userInfo>
+        </attribute>
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="venue" inverseEntity="Location" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="lat"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <elements>
+        <element name="Venue" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Location" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

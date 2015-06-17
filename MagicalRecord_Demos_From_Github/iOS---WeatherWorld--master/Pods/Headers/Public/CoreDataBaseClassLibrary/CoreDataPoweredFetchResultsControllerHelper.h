@@ -1,0 +1,1 @@
+../../../CoreDataBaseClassLibrary/CoreDataPoweredFetchResultsControllerHelper.h
