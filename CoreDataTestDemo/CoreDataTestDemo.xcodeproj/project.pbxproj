@@ -14,6 +14,9 @@
 		1FAD6A7B1B2E8DAA00338AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD6A7A1B2E8DAA00338AD7 /* Images.xcassets */; };
 		1FAD6A7E1B2E8DAB00338AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD6A7C1B2E8DAB00338AD7 /* LaunchScreen.xib */; };
 		1FAD6A8A1B2E8DAB00338AD7 /* CoreDataTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD6A891B2E8DAB00338AD7 /* CoreDataTestDemoTests.m */; };
+		1FD95C621B3AB3EB001AC388 /* TestDemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FD95C601B3AB3EB001AC388 /* TestDemoModel.xcdatamodeld */; };
+		1FD95C691B3AB69D001AC388 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD95C681B3AB69D001AC388 /* Student.m */; };
+		1FD95C6C1B3AB69D001AC388 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD95C6B1B3AB69D001AC388 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		1FAD6A831B2E8DAB00338AD7 /* CoreDataTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAD6A881B2E8DAB00338AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAD6A891B2E8DAB00338AD7 /* CoreDataTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestDemoTests.m; sourceTree = "<group>"; };
+		1FD95C611B3AB3EB001AC388 /* TestDemoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestDemoModel.xcdatamodel; sourceTree = "<group>"; };
+		1FD95C671B3AB69D001AC388 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1FD95C681B3AB69D001AC388 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1FD95C6A1B3AB69D001AC388 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1FD95C6B1B3AB69D001AC388 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 				1FAD6A741B2E8DAA00338AD7 /* ViewController.h */,
 				1FAD6A751B2E8DAA00338AD7 /* ViewController.m */,
 				1FAD6A771B2E8DAA00338AD7 /* Main.storyboard */,
+				1FD95C661B3AB690001AC388 /* Model */,
+				1FD95C5F1B3AB3D3001AC388 /* Data */,
 				1FAD6A7A1B2E8DAA00338AD7 /* Images.xcassets */,
 				1FAD6A7C1B2E8DAB00338AD7 /* LaunchScreen.xib */,
 				1FAD6A6D1B2E8DAA00338AD7 /* Supporting Files */,
@@ -117,6 +127,25 @@
 				1FAD6A881B2E8DAB00338AD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FD95C5F1B3AB3D3001AC388 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1FD95C601B3AB3EB001AC388 /* TestDemoModel.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1FD95C661B3AB690001AC388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FD95C6A1B3AB69D001AC388 /* Card.h */,
+				1FD95C6B1B3AB69D001AC388 /* Card.m */,
+				1FD95C671B3AB69D001AC388 /* Student.h */,
+				1FD95C681B3AB69D001AC388 /* Student.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD95C621B3AB3EB001AC388 /* TestDemoModel.xcdatamodeld in Sources */,
 				1FAD6A761B2E8DAA00338AD7 /* ViewController.m in Sources */,
+				1FD95C691B3AB69D001AC388 /* Student.m in Sources */,
 				1FAD6A731B2E8DAA00338AD7 /* AppDelegate.m in Sources */,
 				1FAD6A701B2E8DAA00338AD7 /* main.m in Sources */,
+				1FD95C6C1B3AB69D001AC388 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +450,7 @@
 				1FAD6A8F1B2E8DAB00338AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FAD6A901B2E8DAB00338AD7 /* Build configuration list for PBXNativeTarget "CoreDataTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,8 +459,22 @@
 				1FAD6A921B2E8DAB00338AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FD95C601B3AB3EB001AC388 /* TestDemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FD95C611B3AB3EB001AC388 /* TestDemoModel.xcdatamodel */,
+			);
+			currentVersion = 1FD95C611B3AB3EB001AC388 /* TestDemoModel.xcdatamodel */;
+			path = TestDemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1FAD6A621B2E8DAA00338AD7 /* Project object */;
 }
